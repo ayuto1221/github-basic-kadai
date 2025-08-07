@@ -1,0 +1,31 @@
+PS C:\Users\yuto1\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/yuto1/git_challenge/.git/
+PS C:\Users\yuto1\git_challenge> git commit -m"Add Hello, world!"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\yuto1\git_challenge> git commit -m "Hello, world!"                 
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\yuto1\git_challenge> git commit -m "hello_world.txt"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\yuto1\git_challenge> git commit -m "こんちは、世界！"
+On branch main
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello_world.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS C:\Users\yuto1\git_challenge> git log --oneline
+5399732 (HEAD -> main)  Add hello_world.txt
