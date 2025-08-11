@@ -1,0 +1,42 @@
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge> cd git_challenge
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git init
+Reinitialized existing Git repository in C:/Users/yuto1/OneDrive/Desktop/git_challenge/git_challenge/.git/
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> echo "Hello, world!" > hello_world.txt
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git add hello_world.txt
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git commit -m "Add hello_world.txt"
+[main 680023a] Add hello_world.txt
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git log
+commit 680023a9ac28368f608c0a97b6ef24fd7ba065d5 (HEAD -> main)
+Author: ayuto1221 <yuto55449@gmail.com>
+Date:   Mon Aug 11 11:56:18 2025 +0900
+
+    Add hello_world.txt
+
+commit 3d228561c14e77f757a7f844e935a40ca4a48217
+Author: ayuto1221 <yuto55449@gmail.com>
+Date:   Mon Aug 11 11:51:46 2025 +0900
+
+    Add hello_world.txt
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> echo "こんにちは、世界！" > hello_world.txt
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge>  git add hello_world.txt
+PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge>  git commit -m "日本語訳を追記"     
+[main 20582f1] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ PS C:\Users\yuto1\OneDrive\Desktop\git_challenge\git_challenge> git log
+commit 20582f18dc3b397b3994ba845290f8afbc67c7f4 (HEAD -> main)
+Author: ayuto1221 <yuto55449@gmail.com>
+Date:   Mon Aug 11 12:04:24 2025 +0900
+
+    日本語訳を追記
+
+commit 680023a9ac28368f608c0a97b6ef24fd7ba065d5
+Author: ayuto1221 <yuto55449@gmail.com>
+Date:   Mon Aug 11 11:56:18 2025 +0900
+
+    Add hello_world.txt
+
+:
